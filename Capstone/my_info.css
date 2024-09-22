@@ -1,0 +1,76 @@
+.box_body > div:nth-child(2) {
+  margin: 1rem;
+  display: flex;
+  position: relative;
+}
+
+#profile_picture {
+  width: 2.5rem;
+  height: 2.5rem;
+  background-color: lightcyan;
+  border-radius: 50%;
+}
+
+#nickname_abode {
+  display: flex;
+  flex-direction: column;
+  position: relative;
+  left: 1.75rem;
+  justify-content: space-around;
+}
+
+#nickname_abode > div:nth-child(2) {
+  font-size: 0.8rem;
+}
+
+#my_info_change_anchor_container {
+  display: flex;
+  flex-direction: column;
+  align-self: center;
+  position: absolute;
+  right: 0;
+}
+
+a {
+  text-decoration: none;
+}
+
+a:visited,
+a:focus,
+a:hover,
+a:active {
+  color: #000;
+}
+
+#point_info {
+  display: flex;
+  justify-content: space-between;
+  padding: 1rem;
+  background-color: lightgray;
+}
+
+#available_point {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+#available_point > :nth-child(1) {
+  font-weight: 650;
+  margin-bottom: 0.2rem;
+}
+
+#exchange_point_anchor {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+#penalty_info_container {
+  display: flex;
+  justify-content: space-between;
+}
+
+#penalty_count {
+  color: red;
+}

@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>CO/N</title>
+  <link rel="stylesheet" href="./style.css">
+  <link rel="stylesheet" href="./my_info_change.css">
+</head>
+<body>
+  <div class="body_container">
+    <div class="box_body">
+      <header class="page_header">
+        <a href="./my_info.html"><</a>
+        <a href="./change_pw.html">비밀번호 변경</a>
+      </header>
+      <div id="my_info_title">나의 정보</div>
+      <main class="page_main">
+        <form id="my_info_change_form" target="prevent_form" action="#" method="post">
+          <div>
+            <label for="user_abode">거주지역</label>
+            <br>
+            <input type="text" name="user_abode">
+          </div>
+          <div>
+            <label for="user_nickname">닉네임</label>
+            <br>
+            <input type="text" name="user_nickname">
+          </div>
+          <div>
+            <label for="user_tel">전화번호</label>
+            <br>
+            <input type="tel" name="user_tel" placeholder="- 포함 여부">
+          </div>
+          <input type="submit" value="수정">
+        </form>
+      </main>
+    </div>
+  </div>
+</body>
+</html>

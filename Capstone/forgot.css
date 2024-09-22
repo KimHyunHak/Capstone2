@@ -1,0 +1,31 @@
+.page_header {
+  justify-content: end;
+}
+
+.btn_close {
+  font-size: 1.2rem;
+  border: none;
+  background-color: var(--main-color);
+}
+
+.nav_forgot ul {
+  width: 100%;
+  list-style-type: none;
+  padding-left: 0;
+  display: flex;
+}
+
+.nav_forgot a {
+  text-decoration: none;
+}
+
+a:visited,
+a:focus,
+a:hover,
+a:active {
+  color: #000;
+}
+
+.page_main {
+  padding: 2rem;
+}

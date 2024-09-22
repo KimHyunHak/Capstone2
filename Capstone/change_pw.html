@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>CO/N</title>
+  <link rel="stylesheet" href="./style.css">
+  <link rel="stylesheet" href="./change_pw.css">
+</head>
+<body>
+  <div class="body_container">
+    <div class="box_body">
+      <header class="page_header">
+        <a href="./my_info_change.html"><</a>
+      </header>
+      <div id="change_pw_title">비밀번호 재설정</div>
+      <main class="page_main">
+        <form id="change_pw_form" target="prevent_form" action="#" method="post">
+          <div>
+            <label for="now_pw">현재 비밀번호</label>
+            <br>
+            <input type="password" name="now_pw">
+          </div>
+          <div>
+            <label for="new_pw">새로운 비밀번호</label>
+            <br>
+            <input type="password" name="new_pw">
+          </div>
+          <div>
+            <label for="new_pw_check">다시 입력해주세요</label>
+            <br>
+            <input type="password" name="new_pw_check">
+          </div>
+          <input type="submit" value="재설정">
+        </form>
+      </main>
+    </div>
+  </div>
+</body>
+</html>

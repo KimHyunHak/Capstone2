@@ -1,0 +1,44 @@
+:root {
+  --main-color: #ffc87c;
+  --side-color: #fff;
+}
+
+* {
+  box-sizing: border-box;
+  margin: 0;
+}
+
+html, body {
+  height: 100%;
+  background-color: var(--side-color);
+}
+
+button {
+  cursor: pointer;
+}
+
+.body_container {
+  height: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: flex-start;
+}
+
+.box_body {
+  background-color: var(--main-color);
+  height: auto;
+  min-height: 100%;
+  position: relative;
+  z-index: 1;
+  width: 37rem;
+}
+
+.page_header {
+  margin: 1rem;
+  margin-bottom: 2.5rem;
+  display: flex;
+}
+
+.page_main {
+  margin: 1rem;
+}

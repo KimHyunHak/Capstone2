@@ -1,0 +1,43 @@
+.page_header {
+  justify-content: space-between;
+}
+
+#sign_up_title {
+  font-size: 1.2rem;
+}
+
+.btn_close {
+  font-size: 1.2rem;
+  border: none;
+  background-color: var(--main-color);
+}
+
+#sign_up_form > div {
+  margin: 1rem 0;
+  position: relative;
+}
+
+#sign_up_form input {
+  width: 100%;
+  height: 2.5rem;
+  padding: 0 6px;
+  border: 1px solid rgb(62, 62, 62);
+  border-radius: 5px;
+}
+
+#sign_up_form select {
+  position: absolute;
+  right: 0;
+  width: 49%;
+  height: 2.5rem;
+  padding: 0 6px;
+  border: 1px solid rgb(62, 62, 62);
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+#sign_up_form input[type="submit"] {
+  margin-top: 1.75rem;
+  font-size: 1.15rem;
+  cursor: pointer;
+}
